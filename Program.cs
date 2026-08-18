@@ -35,11 +35,6 @@ namespace LanFileCopy
                         return RunSender(args);
                     case "receiver":
                         return RunReceiver(args);
-                    // Kept as aliases so old scripts/commands still work: server == receiver+listen, client == sender+connect
-                    case "server":
-                        return RunReceiver(PatchArgs(args, "--listen"));
-                    case "client":
-                        return RunSender(PatchArgs(args, "--connect"));
                     default:
                         PrintUsage();
                         return 1;
@@ -51,12 +46,6 @@ namespace LanFileCopy
                 Console.WriteLine($"[FATAL] {ex}");
                 return 1;
             }
-        }
-
-        private static string[] PatchArgs(string[] args, string extraFlag)
-        {
-            var list = new List<string>(args) { extraFlag };
-            return list.ToArray();
         }
 
         private static void PrintUsage()

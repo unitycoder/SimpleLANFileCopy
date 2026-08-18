@@ -31,7 +31,7 @@ LanFileCopy.exe sender --source "D:\OldFiles" --listen --port 6129 --resume --lo
 
 **New PC (receiver):**
 ```
-LanFileCopy.exe receiver --root "D:\Target" --connect --host 192.168.1.208 --port 6129 --threads 8 --log receiver.log
+LanFileCopy.exe receiver --root "D:\Target" --connect --host 192.168.1.123 --port 6129 --threads 8 --log receiver.log
 ```
 
 ### Available Options
@@ -40,12 +40,6 @@ LanFileCopy.exe receiver --root "D:\Target" --connect --host 192.168.1.208 --por
 - `--threads` (only on the side using --connect) - Number of parallel connections, default 8
 - `--allow-ip` (only with --listen) - Accept connections only from this IP address
 - `--log FILE` - Write warnings/errors to a log file instead of only the console
-
-### Legacy Commands
-
-For backward compatibility, `server` and `client` are still supported:
-- `server` = `receiver --listen`
-- `client` = `sender --connect`
 
 ### Troubleshooting
 
