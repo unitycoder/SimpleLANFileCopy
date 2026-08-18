@@ -53,5 +53,8 @@ If Test-NetConnection, while your host is running, then it means your firewall o
 You need to rename that existing executable as oldsomething.exe and rename LanFileCopy.exe to that filename, which is allowlisted in your firewall.
 
 ### Images
+Host:<br>
+<img width="1063" height="83" alt="image" src="https://github.com/user-attachments/assets/23b32913-a36b-4b86-a417-1ce3dbe105ea" />
+
 Client:<br>
 <img width="787" height="103" alt="image" src="https://github.com/user-attachments/assets/1c6a038c-630b-443c-9f2f-72cb8322c3f4" />
