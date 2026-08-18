@@ -22,19 +22,7 @@ Two independent choices:
 
 Pick whichever side can accept inbound connections through your firewall to `--listen`; the other side always `--connect`s to it.
 
-### Example 1: Old PC has files and CAN accept connections
-
-**Old PC (sender with listen):**
-```
-LanFileCopy.exe sender --source "D:\OldFiles" --listen --port 6129 --resume --log sender.log
-```
-
-**New PC (receiver connects out):**
-```
-LanFileCopy.exe receiver --root "D:\Target" --connect --host 192.168.1.123 --port 6129 --threads 8 --log receiver.log
-```
-
-### Example 2: New PC CAN accept connections (old PC still has files)
+### Example: Old PC CAN accept connections
 
 **Run this first in the old PC (if it has port open):**
 ```
