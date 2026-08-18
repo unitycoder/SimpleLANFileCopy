@@ -51,3 +51,7 @@ For backward compatibility, `server` and `client` are still supported:
 
 If Test-NetConnection, while your host is running, then it means your firewall only accepts specific executable path for that port.
 You need to rename that existing executable as oldsomething.exe and rename LanFileCopy.exe to that filename, which is allowlisted in your firewall.
+
+### Images
+Client:
+<img width="787" height="103" alt="image" src="https://github.com/user-attachments/assets/1c6a038c-630b-443c-9f2f-72cb8322c3f4" />
