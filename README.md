@@ -1,6 +1,6 @@
 # Simple LAN File Copy
 
-Simple way to copy files between two computers on the same LAN - IF your firewall blocks Shared Folders.
+Simple way to copy files between two computers (through specific port!) on the same LAN - IF your firewall blocks Shared Folders.
 
 ### Disclaimer
 
