@@ -1,6 +1,10 @@
-# LANFileCopy
+# Simple LAN File Copy
 
 Simple way to copy files between two computers on the same LAN - IF your firewall blocks Shared Folders.
+
+### Disclaimer
+
+This is a simple tool to copy files between two computers on the same LAN. It is not a replacement for a full-featured file transfer tool, and it does not have any security features. Use at your own risk.
 
 ### Usage
 
